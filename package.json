@@ -1,0 +1,44 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev": "lerna run dev --parallel",
+    "dev:base": "lerna run dev --scope foundation --parallel",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "sb": "start-storybook -p 6006 --no-dll",
+    "build-sb": "build-storybook --no-dll"
+  },
+  "workspaces": [
+    "packages/*",
+    "projects/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@chakra-ui/react": "1.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@storybook/addon-a11y": "^6.1.0-rc.4",
+    "@storybook/addon-actions": "^6.1.0-rc.4",
+    "@storybook/addon-essentials": "^6.1.0-rc.4",
+    "@storybook/addon-links": "^6.1.0-rc.4",
+    "@storybook/react": "^6.1.0-rc.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "framer-motion": "^2.9.4",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "react-is": "^17.0.1",
+    "storybook-addon-performance": "0.13.0"
+  }
+}

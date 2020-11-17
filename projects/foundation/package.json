@@ -1,0 +1,30 @@
+{
+  "name": "foundation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "dev:staging": "NEXT_PUBLIC_HOSTNAME=192.168.0.209 next dev",
+    "build": "next build",
+    "build:staging": "NEXT_PUBLIC_HOSTNAME=192.168.0.209 next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "axios": "^0.19.2",
+    "axios-auth-refresh": "^2.2.8",
+    "dayjs": "^1.8.36",
+    "detect-node": "^2.0.4",
+    "easy-peasy": "^4.0.1",
+    "emotion-theming": "^10.0.27",
+    "formik": "^2.1.5",
+    "jwt-decode": "^2.2.0",
+    "next": "^9.5.2",
+    "nookies": "^2.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-query": "^2.5.14"
+  }
+}

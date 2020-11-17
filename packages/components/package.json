@@ -1,0 +1,35 @@
+{
+  "name": "@archisoft/components",
+  "version": "0.0.0",
+  "description": "Archisoft React components based on Chakra UI",
+  "author": "Umar Luqman",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "source": "lib/index.js",
+  "scripts": {
+    "dev": "microbundle watch --jsx React.createElement",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.4"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "framer-motion": "^2.9.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-feather": "2.0.8",
+    "react-table": "^7.6.1"
+  }
+}
