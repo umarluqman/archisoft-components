@@ -1,7 +1,7 @@
 {
   "name": "@archisoft/components",
   "version": "0.0.0",
-  "description": "Archisoft React components based on Chakra UI",
+  "description": "Archisoft React components based on Chakra UI v1",
   "author": "Umar Luqman",
   "homepage": "",
   "license": "ISC",
@@ -18,6 +18,9 @@
     "dev": "microbundle watch --jsx React.createElement",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
+  "keywords": [
+    "archisoft"
+  ],
   "devDependencies": {
     "microbundle": "^0.12.4"
   },
